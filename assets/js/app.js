@@ -1,7 +1,9 @@
+import animateScrollTo from 'animated-scroll-to';
+
 $(document).ready(function() {
 
         // Transition effect for navbar and back-to-top icon
-        $(window).scroll(function() {
+        $(window).scrollTo(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
           if($(this).scrollTop() > 550) {
               $('.navbar').addClass('solid');
@@ -37,3 +39,34 @@ $(document).ready(function() {
         });
 
       });
+
+
+
+      $(document).ready(function(){
+	$('#btn').click(function() {
+	 	$(this).toggleClass('active');
+	 	$('.menu').toggleClass('open');
+		$('body').toggleClass('blocked');
+	});
+
+	$('#search-btn').click(function(){
+		$('.search').toggleClass('open');
+	});
+
+	$('icon').click(function() {
+		var scroll = $('.article-showcase').offset().top;
+		$('html,body').animate({
+			scrollTop: scroll,
+		},'slow',function(){
+			$('.go-up').fadeIn(300);
+		});
+	});
+
+	$('.go-up').click(function(){
+		$('html,body').animate({
+			scrollTop: 0,
+		},'slow',function(){
+			$('.go-up').fadeOut(300)
+		});
+	});
+});
