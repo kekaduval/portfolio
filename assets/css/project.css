@@ -1,24 +1,6 @@
-/*
-* {
-  box-sizing: border-box;
-} */
-/*
-::-moz-selection {
-  color: coral;
-} */
 
-/* ::selection {
-  color: coral;
-} */
-/*
-html,
-body {
-  min-height: 100vh;
-} */
 
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
-
-
 
 
 :focus {
@@ -96,14 +78,7 @@ button:hover::before {
   }
 }
 
-body {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* background: rgba(255, 127, 80, 0.1); */
-  /* font-size: 0.875em; */
-  /* font-family: "Alice", "Georgia", serif; */
-}
+
 
 section {
   background: rgba(255, 255, 255, 0.75);
@@ -114,11 +89,12 @@ section {
           animation: 5s boxShadowPulse infinite;
   border: 1px solid rgba(255, 127, 80, 0.1);
 }
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
   section {
     display: flex;
   }
-}
+} */
 @media (min-width: 768px) {
   section .caption,
   section .image {
@@ -127,22 +103,14 @@ section {
   }
 
 section .image {
-  /* background-image: url("https://images.unsplash.com/photo-1456725203480-0be828fcd7ae?w=1351&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"); */
-  /* background-position: center center; */
-  /* background-size: cover; */
   background-repeat: no-repeat;
   width: 100%;
   /* padding-bottom: 50%; */
   position: relative;
 }
-/* section .image #particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-} */
+.pro{
+color: #07374a;
+}
 section .caption {
   /* padding: 30px 10%; */
   text-align: center;
@@ -163,9 +131,14 @@ h1 {
 p {
   margin: 0 0 1em;
   font-size: 20px;
-  color: #07374a
+  /* color: #07374a; */
+}
+.pro {
+  color: #07374a;
 }
 
+
+/*
 @-webkit-keyframes boxShadowPulse {
   0% {
     box-shadow: 0 0 40px rgba(255, 127, 80, 0.25);
@@ -176,8 +149,8 @@ p {
   100% {
     box-shadow: 0 0 40px rgba(255, 127, 80, 0.25);
   }
-}
-
+} */
+/*
 @keyframes boxShadowPulse {
   0% {
     box-shadow: 0 0 40px rgba(255, 127, 80, 0.25);
@@ -188,4 +161,4 @@ p {
   100% {
     box-shadow: 0 0 40px rgba(255, 127, 80, 0.25);
   }
-}
+} */
