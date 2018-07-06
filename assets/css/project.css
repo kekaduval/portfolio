@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One');
 
 
@@ -90,11 +89,11 @@ section {
   border: 1px solid rgba(255, 127, 80, 0.1);
 }
 
-/* @media (min-width: 768px) {
+ @media (min-width: 768px) {
   section {
     display: flex;
   }
-} */
+}
 @media (min-width: 768px) {
   section .caption,
   section .image {
@@ -150,6 +149,7 @@ p {
     box-shadow: 0 0 40px rgba(255, 127, 80, 0.25);
   }
 } */
+
 /*
 @keyframes boxShadowPulse {
   0% {
