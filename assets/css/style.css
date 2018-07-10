@@ -647,8 +647,8 @@ body>.container-fluid {
   width: 4em;
   height: 4em;
   line-height: 4em;
-  background-color: #AA076B;
-  border-color: #61045F;
+  background-color: #DEC5E3;
+  /* border-color: #61045F; */
   color:white;
 }
 
@@ -658,8 +658,8 @@ body>.container-fluid {
   width: 5em;
   height: 5em;
   line-height: 5em;
-  background-color: #C4E0E5;
-  border-color:#4CA1AF;
+  background-color: #A9F8FB;
+  /* border-color:#4CA1AF; */
   color: white;
 }
 
@@ -668,8 +668,8 @@ body>.container-fluid {
   width: 6em;
   height: 6em;
   line-height: 6em;
-  background-color: #feb47b;
-  border-color: #f8b500;
+  background-color:#69D2E7;
+  /* border-color: #f8b500; */
   color: white;
 }
 
@@ -677,8 +677,8 @@ body>.container-fluid {
   width: 7em;
   height: 7em;
   line-height: 7em;
-  background-color:#fc6767;
-  border-color: #ec008c;
+  background-color:#ABEDD8;
+  /* border-color: #ec008c; */
   color: white;
 }
 
@@ -687,8 +687,8 @@ body>.container-fluid {
   width: 8em;
   height: 8em;
   line-height: 8em;
-  background-color: #feb47b;
-  border-color: #ff7e5f;
+  background-color: #46CDCF;
+  /* border-color: #ff7e5f; */
   color: white;
 }
 
