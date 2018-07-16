@@ -139,8 +139,6 @@ html, body {
 }
 
 .profile .infoHolder p {
-  /* font-family: 'Sacramento', cursive; */
-  /* font-family: 'Gaegu', cursive; */
   font-family: 'Poppins', sans-serif;
   margin-top: 0px;
   width: 100%;
@@ -239,18 +237,13 @@ img {
 
 body {
   height: 100%;
-  /* font-family: 'Sacramento', cursive; */
-  /* font-family: 'Gaegu', cursive; */
   font-family: 'Poppins', sans-serif;
   background-color: #25b79f;
-  /* background-color:  */
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 
 h1, h2, h3, h4, h5 {
-  /* font-family: 'Sacramento', cursive; */
-  /* font-family: 'Gaegu', cursive; */
   font-family: 'Poppins', sans-serif;
   color: #07374a;
   font-size: 30px;
@@ -260,11 +253,9 @@ h6 {
   color: #ffffff;
 }
 
-
 /*   TExt ki est en desous de web developer*/
 p {
   color: #f0f0e6;
-  /* font-family: 'Sacramento', cursive; */
   font-family: 'Poppins', sans-serif;
   font-size: 25px;
 }
@@ -304,7 +295,7 @@ body>.container-fluid {
   color: #f0f0e6;
   font-weight: 500;
   font-size: 2.5em;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   margin: 10px 5px 5px 5px;
   border-radius: 5px;
 }
