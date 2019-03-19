@@ -719,6 +719,7 @@ body>.container-fluid {
     margin-top: 5%;
     margin: 20px
   }
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -734,6 +735,9 @@ body>.container-fluid {
     margin-top: 10%;
     margin-bottom: 10%;
     margin:20px;
+  }
+  .infoHolder p {
+    font-size: 100%;
   }
 }
 
@@ -857,8 +861,8 @@ figure.theproject.hover figcaption p {
   figure.theproject figcaption {
     width: 50%;
     /* position: static; */
+ 
   }
-
 }
 
 @media screen and (max-width: 540px) {
@@ -870,5 +874,8 @@ figure.theproject.hover figcaption p {
     width: 100%;
     margin: 20px;
   }
-
+.infoHolder p{
+font-size: 100%;
+  
+}
 }
