@@ -6,8 +6,9 @@
       <title></title>
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+      <link rel='stylesheet' id='ms-typekit-css'  href='https://use.typekit.net/yiy3ysd.css?ver=5.4' type='text/css' media='all' />
+      <!-- <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet"> -->
+      <!-- <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet"> -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -17,9 +18,6 @@
       <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <link rel="stylesheet" type="text/css" href="assets/css/project.css">
-
-
-
     </head>
 
     <body>
@@ -28,257 +26,340 @@
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="#">Keka Duval</a>
           </div>
+
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li id="nav-about"><a href="#about">Skills</a></li>
-              <li id="nav-portfolio"><a href="#portfolio">My work</a></li>
+              <li id="nav-portfolio"><a href="#portfolio">My Work</a></li>
               <li id="nav-contact"><a href="#contact">Contact</a></li>
-
             </ul>
           </div>
+
           <!--/.nav-collapse -->
         </div>
+
       </nav>
 
       <!-- Begin page content -->
       <div class="container-fluid">
         <div class="row cover top">
-
           <div class="profile">
-      <h1> Keka Duval </h1>
-      <div class="infoHolder">
-      <h2>About Me</h2>
-      <p> I'm a front end/web developer and UI/UX designer based in Washington, DC.  I have a passion for web design/Web applications. When i'm not busy, you can find me obsessing over my dog, trying new restaurant/cool spots, taking cool pics, trying new cool animations/languages.  </p>
-    </div>
-      <div class="imageHolder"><img class="profilePic" src="assets/images/keka.jpg"></div>
-      </div>
+            <h1 class="profile__name"> Keka Duval </h1>
+          <div class="infoHolder">
+            <h2 class="about__header">About Me</h2>
+            <p class="about__deck">I'm a front end/web developer based in Washington, DC.  I am passionate about creating beautiful/funtioning websites for a cause. When i'm not busy coding, you can find me obsessing over my dog, trying new restaurant/cool spots, hiking and biking, traveling, taking cool pics, trying new cool animations/languages.  </p>
+          </div>
+
+          <div class="imageHolder"><img class="profilePic" src="assets/images/keka.jpg"></div>
+        </div>
       </div>
 
 
         <div id="about" class="row cover">
           <h2 class="text-center">SKILLS</h2>
+            <dl class="skills-diagram">
+              <dt class="skill-5"> Mysql</dt>
+              <dd>7</dd>
 
-              <!-- <div id="about" class="row cover"> -->
-                <!-- <h2 class="text-center">SKILLS</h2> -->
-                <dl class="skills-diagram">
-                  <dt class="skill-5"> Mysql</dt>
-                  <dd>7</dd>
-                  <dt class="skill-4">Ionic 4</dt>
-                  <dd>7</dd>
+              <dt class="skill-8">MongoDB</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-8">MongoDB</dt>
-                  <dd>8</dd>
+              <dt class="skill-6">Angular 4</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-6">Angular 4</dt>
-                  <dd>8</dd>
+              <dt class="skill-5">HTML</dt>
+              <dd>8</dd>
 
-                  <!-- <dt class="skill-5"></dt>
-                  <dd>5</dd> -->
-<!-- 
-                  <dt class="skill-4">AWS</dt>
-                  <dd>7</dd> -->
+              <dt class="skill-7">Sass/Scss </dt>
+              <dd>7</dd>
 
-                  <dt class="skill-5">HTML <i class="fa fa-html5" aria-hidden="true"></i></dt>
-                  <dd>8</dd>
+              <dt class="skill-5">Jquery</dt>
+              <dd>7</dd>
 
-                  <dt class="skill-7">Sass/Scss </dt>
-                  <dd>7</dd>
+              <dt class="skill-8">React</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-6">Express.js</dt>
-                  <dd>8</dd>
+              <dt class="skill-6">Node</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-5">Jquery</dt>
-                  <dd>7</dd>
+              <dt class="skill-7">JavaScript</dt>
+              <dd>7</dd>
 
-                  <dt class="skill-8">React.js</dt>
-                  <dd>8</dd>
+              <dt class="skill-5">ActBlue</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-6">Node.js</dt>
-                  <dd>8</dd>
-
-                  <dt class="skill-7">JavaScript</dt>
-                  <dd>7</dd>
-
-                  <dt class="skill-5">Ajax</dt>
-                  <dd>8</dd>
-
-                  <dt class="skill-4">Css <i class="fa fa-css3" aria-hidden="true"></i></dt>
-                  <dd>7</dd>
+              <dt class="skill-4">Css</dt>
+              <dd>7</dd>
 
 
-                  <dt class="skill-6">Bootstrap</dt>
-                  <dd>8</dd>
+              <dt class="skill-6">Bootstrap</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-4">Npm</dt>
-                  <dd>8</dd>
+              <dt class="skill-4">API</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-4">API</dt>
-                  <dd>8</dd>
+              <dt class="skill-7">ActionKit</dt>
+              <dd>7</dd>
 
-                  <dt class="skill-7">Firebase</dt>
-                  <dd>7</dd>
+              <dt class="skill-4">Git</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-4">Git</dt>
-                  <dd>8</dd>
+              <dt class="skill-7">Wordpress</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-6">Heroku</dt>
-                  <dd>7</dd>
+              <dt class="skill-8">Flywheel</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-7">Handlebars</dt>
-                  <dd>8</dd>
+              <dt class="skill-9">Action Network</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-8">BitBucket</dt>
-                  <dd>8</dd>
+              <dt class="skill-6">Github</dt>
+              <dd>8</dd>
 
-                  <dt class="skill-9">SourceTree</dt>
-                  <dd>8</dd>
+            </dl>
+          </div>
+        </div>
 
-                  <dt class="skill-6">Github <i class="fa fa-github" aria-hidden="true"></i></dt>
-                  <dd>8</dd>
-
-                </dl>
-              </div>
-            </div>
-
-            <!-- Start of the porfolio -->
-            <div id="portfolio">
-            <br> <br>
+<!-- Start of the porfolio -->
+        <div id="portfolio">
+          <br> <br>
             <div class="row break">
-                <h2 class="text-center header">My Work</h2>
-              <!-- <center> <span class="glyphicon glyphicon-arrow-down"></cente></span> -->
-              </div>
-              <br>
-            <!-- </div> -->
-          <!-- </div> -->
-        <!-- </div> -->
+              <h2 class="mywork">Portfolio</h2>
+            <!-- <center> <span class="glyphicon glyphicon-arrow-down"></cente></span> -->
+            </div>
+          <br>
+
           <div class="container">
-      <section>
-      	<div class="image">
-          <img class="left" src="assets/images/trialerpark.png"/>
 
-      	</div>
-      	<div class="caption">
-      	<h5>TRAILER PARK</h5>
-      <p class="pro">  A client side app with a Netflix inspired interface for finding trailers for movies and television shows. Trailer Park uses a simple Bootstrap layout powered by jQuery. The app uses a combination the Youtube, OMDB and Movie Database APIs to display content via AJAX call. </p>
-      <a href="https://kekaduval.github.io/trailer-park1/">  <button class="button--bop">
-        check me out
-      </button>
-    </a>
-      	</div>
+          <section>
+              <div class="image">
+                <img class="left" src="assets/images/Ourcount.png"/>
+              </div>
 
-      </section>
+              <div class="caption">
+                <h5 class="caption__header">OurCount.org</h5>
+                <p class="pro">OurCount is a movement to make sure every Black person counts, every Black community counts, and every Black vote counts.<strong>This site was built with a custom Wordpress template.</strong> </p>
+                <a href="https://ourcount.org/">  
+                  <button class="button--bop">
+                    Check Me Out
+                  </button>
+                </a>
+              </div>
 
-      <section>
-      	<div class="image">
-          <img class="left" src="assets/images/ci.png"/>
+            </section>
 
-      	</div>
-      	<div class="caption">
-      	<h5>Clearly Innovative </h5>
-      <p class="pro"> As a junior developer, this was one of the projects i had. I had to rebuild the site and redesign the company's website. I used wix to develop/design the website.</p>
-      <a href="https://kekaduval.github.io/pagneold/">  <button class="button--bop">
-        check me out
-      </button>
-    </a>
-      	</div>
-      </section>
-      <section>
-      	<div class="image">
+            <section>
+                <div class="image">
+                  <img class="left" src="assets/images/couragetochange.png"/>
+                </div>
+
+                <div class="caption">
+                  <h5 class="caption__header">Courage To Change</h5>
+                  <p class="pro">The Courage to Change PAC is our answer to that broken system. Officially affiliated with Alexandria Ocasio-Cortez, Courage to Change seeks to reward challengers and incumbents who display political courage — people who refuse to bow to establishment pressure, who advocate ferociously for working-class families, and who have lived the same struggles as the people they seek to represent. <strong>This site was built with a custom Wordpress template.</strong> </p>
+                  <a href="https://couragetochangepac.org/">  
+                    <button class="button--bop">
+                      Check Me Out
+                    </button>
+                  </a>
+                </div>
+
+              </section>
+              <section>
+                  <div class="image">
+                    <img class="left" src="assets/images/realjusticepac.png"/>
+                  </div>
+
+                  <div class="caption">
+                    <h5 class="caption__header">Real Justice Pac</h5>
+                    <p class="pro">Elect prosecutors who will fix our broken criminal justice system. <strong>This site was built with a custom Wordpress template.</strong> </p>
+                    <a href="https://realjusticepac.org/">  
+                      <button class="button--bop">
+                        Check Me Out
+                      </button>
+                    </a>
+                  </div>
+
+                </section>
+                <section>
+                    <div class="image">
+                      <img class="left" src="assets/images/actionpac.png"/>
+                    </div>
+
+                    <div class="caption">
+                      <h5 class="caption__header">The Action Pac</h5>
+                      <p class="pro"> The Action PAC runs hard-hitting campaigns to stop racism and bigotry in America. We unleash the power of people, organizing everywhere at once. We use digital tools to facilitate strategic plans for change – on the web, on phone lines, and on the ground. Join us in any of our campaigns. <strong>This site was built with a custom Wordpress template.</strong></p>
+                      <a href="https://theactionpac.com/">  
+                        <button class="button--bop">
+                          Check Me Out
+                        </button>
+                      </a>
+                    </div>
+
+                  </section>
+                  <section>
+                      <div class="image">
+                        <img class="left" src="assets/images/womensmarch.png"/>
+                      </div>
+
+                      <div class="caption">
+                        <h5 class="caption__header">Women's March</h5>
+                        <p class="pro">The mission of Women’s March is to harness the political power of diverse women and their communities to create transformative social change. Women’s March is a women-led movement providing intersectional education on a diverse range of issues and creating entry points for new grassroots activists & organizers to engage in their local communities through trainings, outreach programs and events. Women’s March is committed to dismantling systems of oppression through nonviolent resistance and building inclusive structures guided by self-determination, dignity and respect. <strong>This site was built using SquareSpace.</strong></p>
+                        <a href="https://womensmarch.com/">  
+                          <button class="button--bop">
+                            Check Me Out
+                          </button>
+                        </a>
+                      </div>
+
+                    </section>
+                  <section>
+                      <div class="image">
+                        <img class="left" src="assets/images/jahanahayes.png"/>
+                      </div>
+
+                      <div class="caption">
+                        <h5 class="caption__header">Jahana Hayes</h5>
+                        <p class="pro">Jahana Is Fighting for Connecticut’s 5th District. <strong>This site was built with a custom Wordpress template.</strong> </p>
+                        <a href="https://jahanahayes.com/">  
+                          <button class="button--bop">
+                            Check Me Out
+                          </button>
+                        </a>
+                      </div>
+
+                    </section>
+
+            <section>
+              <div class="image">
+                <img class="left" src="assets/images/trialerpark.png"/>
+              </div>
+
+              <div class="caption">
+                <h5 class="caption__header">TRAILER PARK</h5>
+                <p class="pro">A client side app with a Netflix inspired interface for finding trailers for movies and television shows. Trailer Park uses a simple Bootstrap layout powered by jQuery. The app uses a combination the Youtube, OMDB and Movie Database APIs to display content via AJAX call. </p>
+                <a href="https://kekaduval.github.io/trailer-park1/">  
+                  <button class="button--bop">
+                    check me out
+                  </button>
+                </a>
+              </div>
+
+            </section>
+
+          <section>
+            <div class="image">
+            <img class="left" src="assets/images/ci.png"/>
+
+            </div>
+            <div class="caption">
+              <h5 class="caption__header">Clearly Innovative </h5>
+              <p class="pro"> As a junior developer, this was one of the projects i had. I had to rebuild the site and redesign the company's website. I used wix to develop/design the website.</p>
+                <a href="https://kekaduval.github.io/pagneold/">  
+                  <button class="button--bop">
+                    check me out
+                  </button>
+                </a>
+            </div>
+          </section>
+
+
+          <section>
+          <div class="image">
           <img class="left" src="assets/images/pagne.png"/>
 
-      	</div>
-      	<div class="caption">
-      	<h5>PAGNE PR</h5>
-      <p class="pro"> As a Front-End Developer Intern at Pagne I had the solo task of developing the company website. I used CSS, HTML, and JavaScript to develop the website and checked in once weekly with my supervisors. This is a temporary position.</p>
-      <a href="https://kekaduval.github.io/pagneold/">  <button class="button--bop">
-        check me out
-      </button>
-    </a>
-      	</div>
-      </section>
+          </div>
+            <div class="caption">
+              <h5 class="caption__header">PAGNE PR</h5>
+              <p class="pro"> As a Front-End Developer Intern at Pagne I had the solo task of developing the company website. I used CSS, HTML, and JavaScript to develop the website and checked in once weekly with my supervisors. This is a temporary position.</p>
+                <a href="https://kekaduval.github.io/pagneold/">  
+                  <button class="button--bop">
+                    check me out
+                  </button>
+                </a>
+            </div>
+          </section>
 
 
-      <section>
-        <div class="image">
-          <img class="left" src="assets/images/squonk.png"/>
+          <section>
+            <div class="image">
+              <img class="left" src="assets/images/squonk.png"/>
+            </div>
+            <div class="caption">
+              <h5 class="caption__header">SQUONK</h5>
+              <p class="pro">  Squonk is a budgeting app for groups and personal use. We used REACT.JS, CSS, SASS, NODE.JS, Mongodb ect..   </p>
+                <a href="https://squonk.herokuapp.com/">  
+                  <button class="button--bop">
+                    Check Me Out
+                  </button>
+                </a>
+            </div>
+          </section>
+
+          <section>
+            <div class="image">
+            <img class="left" src="assets/images/hangman.png"/>
+
+            </div>
+            <div class="caption">
+              <h5 class="caption__header">Hangman Game</h5>
+              <p class="pro">  Used Javascript, CSS, Html ect..   </p>
+                <a href="https://kekaduval.github.io/hangman-game/">  
+                  <button class="button--bop">
+                    Check Me Out
+                  </button>
+                </a>
+            </div>
+          </section>
+
+            </div>
 
         </div>
-        <div class="caption">
-        <h5>SQUONK</h5>
-      <p class="pro">  Squonk is a budgeting app for groups and personal use. We used REACT.JS, CSS, SASS, NODE.JS, Mongodb ect..   </p>
-      <a href="https://squonk.herokuapp.com/">  <button class="button--bop">
-        check me out
-      </button>
-    </a>
-        </div>
-      </section>
 
-      <section>
-        <div class="image">
-          <img class="left" src="assets/images/hangman.png"/>
+        <!-- End #Portfolio -->
 
-        </div>
-        <div class="caption">
-        <h5>Hangman Game</h5>
-      <p class="pro">  Used Javascript, CSS, Html ect..   </p>
-      <a href="https://kekaduval.github.io/hangman-game/">  <button class="button--bop">
-        check me out
-      </button>
-    </a>
-        </div>
-      </section>
+        <div id="contact" class="row cover bottom">
 
-      <section>
-        <div class="image">
-          <img class="left" src="assets/images/travel.png"/>
+          <h2 class="text-center ">Contact Me</h2>
 
-        </div>
-        <div class="caption">
-        <h5>Trivia Game</h5>
-      <p class="pro">  Used Javascript, CSS, Html ect..   </p>
-      <a href="https://kekaduval.github.io/TriviaGame/">  <button class="button--bop">
-        check me out
-      </button>
-    </a>
-        </div>
-      </section>
-    </div>
-
-</div>
-
-      <!-- End #Portfolio -->
-
-      <div id="contact" class="row cover bottom">
-
-        <h2 class="text-center ">Contact Me</h2>
-
-        <h6 class="text-center contact-email"> <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <h6 class="text-center contact-email"> 
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
             kenaphe.duval@gmail.com
           </h6>
 
-        <div class="text-center contact-social-icons">
+          <div class="text-center contact-social-icons">
           <!-- <p>Or find me on:</p> -->
-          <ul class="centered">
-            <a href="https://www.linkedin.com/in/kekaduval">
-              <li><i class="fa fa-linkedin-square"></i> Linkedin</li>
-            </a>
-            <a href="https://github.com/kekaduval">
-              <li><i class="fa fa-github"></i> Github</li>
-            </a>
-            <a href="https://twitter.com/keka_duval">
-              <li><i class="fa fa-twitter"></i> Twitter</li>
-            </a>
-            <a href="https://www.instagram.com/latenitecrush/">
-              <li><i class="fa fa-instagram"></i> Instagram</li>
-            </a>
-          </ul>
+            <ul class="centered">
+              <a href="https://www.linkedin.com/in/kekaduval">
+                <li>
+                  <i class="fa fa-linkedin-square"></i> Linkedin
+                </li>
+              </a>
+
+              <a href="https://github.com/kekaduval">
+                <li>
+                  <i class="fa fa-github"></i> Github
+                </li>
+              </a>
+
+              <a href="https://twitter.com/keka_duval">
+                <li>
+                  <i class="fa fa-twitter"></i> Twitter
+                </li>
+              </a>
+
+              <a href="https://www.instagram.com/latenitecrush/">
+                <li>
+                  <i class="fa fa-instagram"></i> Instagram
+                </li>
+              </a>
+            </ul>
           </p>
 
         </div>

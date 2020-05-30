@@ -1,8 +1,4 @@
 
-
-@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-
 .about-tools ul li, .contact-social-icons ul a li {
   text-align: center;
 }
@@ -75,9 +71,7 @@ html, body {
 
 /* Keka duval text */
 .profile h1 {
-  /* font-family: 'Sacramento', cursive; */
-  font-family: 'Poppins', sans-serif;
-  /* color: #D10606; */
+  font-family: 'proxima-nova', sans-serif;
   color: white;
   position: absolute;
   width: 100%;
@@ -125,9 +119,7 @@ html, body {
 }
 
 .profile .infoHolder h2 {
-  /* font-family: 'Sacramento', cursive; */
-  font-family: 'Poppins', sans-serif;
-/* font-family: 'Gaegu', cursive; */
+  font-family: 'proxima-nova', sans-serif;
   float: left;
   letter-spacing: 3px;
   margin-top: 0px;
@@ -136,10 +128,12 @@ html, body {
   transform: translateX(102%);
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
+  font-size: 35px;
+  font-weight: 800;
 }
 
 .profile .infoHolder p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   margin-top: 0px;
   width: 100%;
   transform: translateX(102%);
@@ -237,26 +231,30 @@ img {
 
 body {
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   background-color: #25b79f;
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
   color: #07374a;
   font-size: 30px;
+}
+h5{
+  font-weight: 700;
 }
 h6 {
   font-size: 20px;
   color: #ffffff;
 }
-
+.about__deck{
+  font-size: 23px;
+  color: #ffffff;
+}
 /*   TExt ki est en desous de web developer*/
 p {
   color: #f0f0e6;
-  font-family: 'Poppins', sans-serif;
   font-size: 25px;
 }
 
@@ -393,8 +391,17 @@ body>.container-fluid {
 
 #about h2 {
   color: #25b79f;
+  padding: 0px 0px 130px 0px;
+  font-weight: 800;
+  font-size: 50px;
 }
 
+.mywork{
+  padding: 40px 0px 80px 0px;
+  font-weight: 800;
+  font-size: 50px;
+  text-align: center;
+}
 .profile-img {
   margin-bottom: 15px;
   width: 120px;
@@ -503,10 +510,14 @@ body>.container-fluid {
 
 #contact {
   background-color: #07374a;
+  padding: 40px 0px 80px 0px;
 }
 
 #contact h2 {
   color: #25b79f;
+  font-size: 50px;
+  font-weight: 800;
+  padding-bottom: 60px;
 }
 
 .contact-social-icons p {
@@ -618,7 +629,6 @@ body>.container-fluid {
   background-color: #FFC837;
   border-color: #FF8008;
   color: white;
- scrape
 }
 
 .skills-diagram .skill-3 {
@@ -636,9 +646,8 @@ body>.container-fluid {
   width: 4em;
   height: 4em;
   line-height: 4em;
-  background-color: #DEC5E3;
-  /* background-color: #39CCCC; */
-  /* border-color: #61045F; */
+  background-color: #ec7357;
+  border-color: #ec7357;
   color:white;
 }
 
@@ -648,9 +657,8 @@ body>.container-fluid {
   width: 5em;
   height: 5em;
   line-height: 5em;
-  /* background-color: #A9F8FB; */
-  background-color:#3D9970;
-  /* border-color:#4CA1AF; */
+  background-color:#ffbd59;
+  border-color:#ffbd59;
   color: white;
 }
 
@@ -668,8 +676,8 @@ body>.container-fluid {
   width: 7em;
   height: 7em;
   line-height: 7em;
-  background-color:#ABEDD8;
-  /* border-color: #ec008c; */
+  background-color:#fad4c0;
+   border-color:#fad4c0;
   color: white;
 }
 
@@ -678,8 +686,8 @@ body>.container-fluid {
   width: 8em;
   height: 8em;
   line-height: 8em;
-  background-color: #46CDCF;
-  /* border-color: #ff7e5f; */
+  background-color: #e5989b;
+  border-color: #e5989b;
   color: white;
 }
 
@@ -687,8 +695,8 @@ body>.container-fluid {
   width: 11em;
   height: 11em;
   line-height: 11em;
-  background-color: #FBD3E9;
-  border-color:#BB377D;
+  background-color: #f67e7d;
+  border-color:#f67e7d;
   color: white;
 }
 
@@ -719,7 +727,7 @@ body>.container-fluid {
     margin-top: 5%;
     margin: 20px
   }
-  
+
 }
 
 @media screen and (min-width: 768px) {
@@ -736,17 +744,13 @@ body>.container-fluid {
     margin-bottom: 10%;
     margin:20px;
   }
-  .infoHolder p {
-    font-size: 100%;
-  }
 }
 
 
 /*  PROJECTS*/
 
 figure.theproject {
-  /* font-family: 'Gaegu', cursive; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'proxima-nova', sans-serif;
   position: relative;
   /* float: left; */
   max-width: 795px;
@@ -796,10 +800,7 @@ figure.theproject p {
 }
 
 figure.theproject h2 {
-  /* font-family: 'Gaegu', cursive; */
-  font-family: 'Poppins', sans-serif;
-
-  /* text-transform: uppercase; */
+  font-family: 'proxima-nova', sans-serif;
   margin-bottom: 5px;
 }
 
@@ -870,12 +871,9 @@ figure.theproject.hover figcaption p {
     width: 100%;
     margin: 20px;
   }
+
   .theproject{
     width: 100%;
     margin: 20px;
   }
-.infoHolder p{
-font-size: 100%;
-  
-}
 }
